@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Dynamic Services Web Application</title>
+</head>
+<body>
+    <header>
+        <h1>Favorite Services</h1>
+    </header>
+    <main>
+        <section id="services">
+            <h2>Available Services</h2>
+            <div id="services-list"></div>
+        </section>
+        <section id="favorites">
+            <h2>Your Favorites</h2>
+            <div id="favorites-list"></div>
+        </section>
+        <form id="service-form">
+            <input type="text" id="service-name" placeholder="Service Name" required />
+            <button type="submit">Add Service</button>
+        </form>
+    </main>
+    <script src="js/services.js"></script>
+    <script src="js/favorites.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
